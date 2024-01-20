@@ -125,10 +125,10 @@ describe("InvoiceRepository test", () => {
         expect(result.address.zipCode).toEqual(invoice.zipCode);
         expect(result.items.length).toBe(2);
         expect(result.items[0].id.id).toEqual("1");
-        expect(result.items[0].name).toEqual("Product 1");
+        expect(result.items[0].name).toEqual("Item 1");
         expect(result.items[0].price).toEqual(20);
         expect(result.items[1].id.id).toEqual("2");
-        expect(result.items[1].name).toEqual("Product 2");
+        expect(result.items[1].name).toEqual("Item 2");
         expect(result.items[1].price).toEqual(30);
         expect(result.createdAt).toStrictEqual(invoice.createdAt);
     });

@@ -17,15 +17,6 @@ export default class Address implements ValueObject {
   _state: string = ""
   _zipCode: string = ""
 
-  constructor(street: string, number: string, complement: string, city: string, state: string, zipCode: string) {
-    this._street = street
-    this._number = number
-    this._complement = complement
-    this._city = city
-    this._state = state
-    this._zipCode = zipCode
-
-  }
 
   constructor(props: AddressProps) {
     this._street = props.street;
