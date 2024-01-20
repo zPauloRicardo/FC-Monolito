@@ -97,6 +97,7 @@ describe("Test Invoice Facade", () => {
                     },
                 ],
                 createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 include: [InvoiceProductModel],

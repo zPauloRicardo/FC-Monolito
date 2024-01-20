@@ -12,7 +12,7 @@ export interface AddProductOutputDto {
   name: string;
   description: string;
   purchasePrice: number;
-  salePrice: number;
+  salesPrice: number;
   stock: number;
   createdAt: Date;
   updatedAt: Date;

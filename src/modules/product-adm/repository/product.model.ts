@@ -19,7 +19,7 @@ export class ProductModel extends Model {
   purchasePrice: number;
 
   @Column({ allowNull: false })
-  salePrice: number;
+  salesPrice: number;
 
   @Column({ allowNull: false })
   stock: number;

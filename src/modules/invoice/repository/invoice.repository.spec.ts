@@ -77,6 +77,7 @@ describe("InvoiceRepository test", () => {
                 price: item.price,
             })),
             createdAt: invoice.createdAt,
+            updatedAt: invoice.updatedAt
         });
     });
 
@@ -105,6 +106,7 @@ describe("InvoiceRepository test", () => {
                     },
                 ],
                 createdAt: new Date(),
+                updatedAt: new Date()
             },
             {
                 include: [InvoiceProductModel],

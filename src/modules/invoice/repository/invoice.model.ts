@@ -39,4 +39,7 @@ export class InvoiceModel extends Model {
 
     @Column({allowNull: false})
     declare createdAt: Date;
+
+    @Column({allowNull: false})
+    declare updatedAt: Date;
 }

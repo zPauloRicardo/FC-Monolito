@@ -49,7 +49,7 @@ describe("ProductAdmFacade test", () => {
     expect(product.name).toBe(input.name);
     expect(product.description).toBe(input.description);
     expect(product.purchasePrice).toBe(input.purchasePrice);
-    expect(product.salePrice).toBe(input.salesPrice)
+    expect(product.salesPrice).toBe(input.salesPrice)
     expect(product.stock).toBe(input.stock);
   });
 

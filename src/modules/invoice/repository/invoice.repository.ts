@@ -24,6 +24,7 @@ export default class InvoiceRepository implements InvoiceGateway {
                     price: item.price,
                 })),
                 createdAt: invoice.createdAt,
+                updatedAt: invoice.updatedAt
             },
             {
                 include: [{model: InvoiceProductModel}],
