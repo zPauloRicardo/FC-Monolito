@@ -2,3 +2,8 @@ node_modules
 .vscode
 .swc
 dist
+/.idea/.gitignore
+/.idea/fc-monolito.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml

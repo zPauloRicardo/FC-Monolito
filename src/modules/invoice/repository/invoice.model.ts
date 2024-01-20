@@ -34,7 +34,7 @@ export class InvoiceModel extends Model {
     @Column({allowNull: true})
     declare zipCode: string;
 
-    @HasMany(() => InvoiceProductModel, {foreignKey: "invoice_id"})
+    @HasMany(() => InvoiceProductModel)
     declare items: InvoiceProductModel[];
 
     @Column({allowNull: false})
